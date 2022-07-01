@@ -1,4 +1,4 @@
 WLAV/** linguist-documentation=false
 WLAV/** linguist-vendored=false
 *.c linguist-detectable=false
-sqlite3.c linguist-vendored
+*.h linguist-vendored
