@@ -1,0 +1,16 @@
+"""
+Script to check files in Nonelist
+Made by Reatmos
+Github : reatmos
+Twitter : @Pa1ath
+Blog: https://re-atmosphere.tistory.com/
+"""
+
+import subprocess
+
+# Set locate for Nonelist
+file = 'C:\\WLAV\\NoneList.db'
+
+def OutDB():
+    # Set the location of the file to save and the column to load
+    subprocess.call(['sqlite3', file, '.output C:/WLAV/Temp/None.txt', 'SELECT Hash_Value FROM HASH'])
