@@ -27,5 +27,3 @@ Additional dependencies
 - libssl64MD.lib
 - libssl64MT.lib
 - python[version].lib
-
-====================
