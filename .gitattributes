@@ -1,2 +1,3 @@
 WLAV/** linguist-documentation=false
 WLAV/** linguist-vendored=false
+*.c linguist-detectable=false
